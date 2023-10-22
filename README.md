@@ -1,1 +1,450 @@
-# PrepaenlineaSEP
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://prepaenlinea.sep.gob.mx/validacion/public/images/logos/svg/prepa-en-linea.svg" />
+
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="https://prepaenlinea.sep.gob.mx/validacion/public/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://prepaenlinea.sep.gob.mx/validacion/public/css/estilos.css">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="https://prepaenlinea.sep.gob.mx/validacion/public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://prepaenlinea.sep.gob.mx/validacion/public/css/css2.css">
+
+</head>
+
+<body> 
+
+    <div class="gobierno" style="background-color:#0b231e!important; padding-top:10px; padding-bottom:10px;">
+        <div style="width:100%; max-width:1600px; margin:0 auto;">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="https://www.gob.mx">
+                        <img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg"
+                            alt="logo gobierno de méxico" width="128px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation" data-parent="accordian-6">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.gob.mx/tramites" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Trámites
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.gob.mx/gobierno" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Gobierno
+                                </a>
+                            </li>
+                            <li class="nav-item pt-2">
+                                <a class="text-white" href="https://www.gob.mx/busqueda?utf8=✓"><i
+                                        class="fas fa-search"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://prepaenlinea.sep.gob.mx">
+                    <i class="glyphicon fa-home fas"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Conocenos</a>
+                            <ul class="dropdown-menu  bg-dark">
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/conocenos/conoce-prepa-en-linea-sep/">Conoce
+                                        Prepa en
+                                        Línea-SEP</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/conocenos/que-es-estudiar-en-linea/">¿Qué
+                                        es estudiar en
+                                        línea?</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/conocenos/modelo-educativo/">Modelo
+                                        educativo</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/conocenos/requerimientos-tecnologicos/">Requerimientos
+                                        tecnológicos</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/conocenos/estructura/">Estructura</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/conocenos/preguntas-frecuentes/">Preguntas
+                                        frecuentes</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#/" role="button"
+                                aria-expanded="false">Perfiles de la
+                                comunidad</a>
+                            <ul class="dropdown-menu  bg-dark">
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/perfiles-de-la-comunidad/aspirantes/">Aspirantes</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/perfiles-de-la-comunidad/estudiantes/">Estudiantes</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/perfiles-de-la-comunidad/asesores-virtuales/#">Asesores
+                                        virtuales</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/perfiles-de-la-comunidad/tutores/">Tutores</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/perfiles-de-la-comunidad/egresados/">Egresados</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/perfiles-de-la-comunidad/supervisores-de-aseguramiento-de-la-calidad-sac/">Supervisores
+                                        para el Acompañamiento y la Mejora Educativa
+                                        SAME </a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/perfiles-de-la-comunidad/equipo-administrativo/">Equipo
+                                        administrativo</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Nuestro programa</a>
+                            <ul class="dropdown-menu  bg-dark">
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/nuestro-programa/plan-de-estudios/">Plan
+                                        de estudios</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/nuestro-programa/plan-de-estudios/perfil-de-ingreso/">Perfil
+                                        de
+                                        ingreso</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/nuestro-programa/plan-de-estudios/competencias/">Competencias</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/nuestro-programa/plan-de-estudios/reingreso-revalidacion-y-equivalencia-de-estudios/">Reingreso,
+                                        revalidación y equivalencia de estudios</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/nuestro-programa/mapa-curricular/">Mapa
+                                        curricular</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/nuestro-programa/trayectoria/">Trayectoria</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/nuestro-programa/certificado-electronico/">Certificado
+                                        electrónico</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://prepaenlinea.sep.gob.mx/regularizacion/">Regularización</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Transparencia</a>
+                            <ul class="dropdown-menu  bg-dark">
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/transparencia/acuerdos-y-normas/">Acuerdos
+                                        y normas</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/transparencia/numeralia/">Numeralia</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/transparencia/aviso-de-privacidad/">Avisos
+                                        de privacidad</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/transparencia/circulares/">Circulares</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://prepaenlinea.sep.gob.mx/directorio-de-atencion/">Dirección
+                                de
+                                atención</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Registro</a>
+                            <ul class="dropdown-menu  bg-dark">
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/registro/registro-de-aspirante-post-convocatoria-2021-4/">Registro
+                                        de aspirantes</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/registro/registro-de-asesor-virtual/">Registro
+                                        de asesor
+                                        virtual</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://prepaenlinea.sep.gob.mx/registro/registro-de-tutora/">Registro
+                                        de tutor(a)</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="fusion-main-menu-icon fusion-bar-highlight" href="#" aria-label="Buscar"
+                                data-title="Buscar" title="Buscar"></a>
+                            <a class="nav-link" href="https://prepaenlinea.sep.gob.mx/?s"><i
+                                    class="fas fa-search"></i></a>
+                        </li>
+                    </ul>
+
+                    <a class="ms-auto"
+                        href="https://prepaenlinea.sep.gob.mx/mi-comunidad-de-aprendizaje/mi-comunidad/"><img
+                            src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2020/03/btn_02-mi-comunidad-especial.png"
+                            width="198" class="boton_comunidad"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    
+		<div class="header">
+			<div class="container h-100">
+				<div class="row h-100 align-items-center justify-content-center">
+					<div class="col-8">
+						<h1 style="font-size: 36px;">Certificado de Terminación de Estudios</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section id="detalle-folio">
+			<div class="container">
+				<div class="row col-md-8 offset-md-2">
+					<div class="panel">
+						<table class="table">
+							<tr>
+								<td class="notification is-info is-light title is-5" colspan="2" style="border-style: none"> 
+									Datos del estudiante
+								</td>
+							</tr>
+							<tr>
+								<td><b>Nombre y apellidos:</b></td>
+								<td>AMELIA VILLALOBOS URIBE</td>
+							</tr>
+							<tr>
+								<td><b>Matrícula:</b></td>
+								<td>A1607M09046</td>
+							</tr>
+							
+							<tr>
+								<td class="notification is-info is-light title is-5" colspan="2" style="border-style: none"> 
+									Datos del plantel o servicio educativo
+								</td>
+							</tr>
+							<tr>
+								<td><b>Institución educativa emisora:</b></td>
+								<td>Servicio Nacional de Bachillerato en Línea, "Prepa en Línea-SEP"</td>
+							</tr>
+							<tr>
+								<td><b>Plantel o servicio educativo:</b></td>
+								<td>Servicio Nacional de Bachillerato en Línea, "Prepa en Línea-SEP"</td>
+							</tr>
+							<tr>
+								<td><b>Clave de Centro de Trabajo:</b></td>
+								<td>09DBH0001D</td>
+							</tr>
+							
+							<tr>
+								<td class="notification is-info is-light title is-5" colspan="2" style="border-style: none"> 
+									Trayectoria académica y datos del documento
+								</td>
+							</tr>
+							<tr>
+								<td><b>Plan de estudios:</b></td>
+								<td>Bachillerato, con formación básica para el trabajo</td>
+							</tr>
+							<tr>
+								<td><b>Promedio:</b></td>
+								<td>8.0 Ocho</td>
+							</tr>
+							<tr>
+								<td><b>Créditos obtenidos:</b></td>
+								<td>276 de un total de 276</td>
+							</tr>
+							<tr>
+								<td><b>Periodo de estudios:</b></td>
+								<td>09 de abril del 2022 al 12 de agosto del 2023</td>
+							</tr>
+							<tr>
+								<td><b>Tipo de documento:</b></td>
+								<td>Certificado de Terminación de Estudios</td>
+							</tr>
+							<tr>
+								<td><b>Estatus:</b></td>
+								<td> <span class="tag is-success">Registrado en el SIGED</span></td>
+							</tr>
+							<tr>
+								<td><b>Folio:</b></td>
+								<td>3d607306-28a3-42bf-9a6d-78e5dc832be2</td>
+							</tr>
+							<tr>
+								<td><b>Fecha y hora de timbrado:</b></td>
+								<td>09 de septiembre del 2023 a las 10:03:21</td>
+							</tr>
+						</table><pre class="center text ok"><h4>Documento Validado.</h4></pre>
+						<div class="row text">
+							<div class="col align-self-center">
+								<button class="btn tag is-success ok" onclick="location.href='https://siged.sep.gob.mx/certificados/iems'">
+									Validación con SIGED
+								</button> 
+							</div>
+						</div>
+						<div class="hr"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+    <div class="footer_gobierno">
+        <div class="container-fluid">
+            <div data-v-41055fb8="" style="width:100%; max-width:1600px; margin: 0 auto;">
+                <div data-v-41055fb8="" class="row">
+                    <div data-v-41055fb8="" class="col-sm-6 col-lg-3">
+                        <img data-v-41055fb8="" src="https://framework-gb.cdn.gob.mx/landing/img/logofooter.svg"
+                            href="/" alt="logo gobierno de méxico" class="logo_footer"
+                            style="width:100%; max-width:200px">
+                    </div>
+                    <div data-v-41055fb8="" class="col-sm-6 col-lg-3">
+                        <h6 data-v-41055fb8="" align="left" id="division" data-fontsize="16" data-lineheight="19.2px"
+                            class="fusion-responsive-typography-calculated mb-5"
+                            style="--fontSize:16; line-height: 1.2; --minFontSize:16;">
+                            Enlaces</h6>
+                        <ul data-v-41055fb8="" class="list-unstyled">
+                            <li data-v-41055fb8="">
+                                <a data-v-41055fb8="" href="http://www.participa.gob.mx" target="_blank">Participa</a>
+                            </li>
+                            <li data-v-41055fb8="">
+                                <a data-v-41055fb8="" href="https://www.gob.mx/publicaciones"
+                                    target="_blank">Publicaciones
+                                    Oficiales</a>
+                            </li>
+                            <li data-v-41055fb8="">
+                                <a data-v-41055fb8="" href="http://www.ordenjuridico.gob.mx" target="_blank">Marco
+                                    Jurídico</a>
+                            </li>
+                            <li data-v-41055fb8="">
+                                <a data-v-41055fb8="" href="https://consultapublicamx.inai.org.mx/vut-web/"
+                                    target="_blank">Plataforma
+                                    Nacional de Transparencia</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div data-v-41055fb8="" class="col-sm-6 col-lg-3">
+                        <h6 data-v-41055fb8="" align="left" id="division" data-fontsize="16" data-lineheight="19.2px"
+                            class="fusion-responsive-typography-calculated mb-5"
+                            style="--fontSize:16; line-height: 1.2; --minFontSize:16;">
+                            ¿Qué es gob.mx?</h6>
+                        <p data-v-41055fb8="">Es el portal único de trámites, información y participación ciudadana. <a
+                                data-v-41055fb8="" href="https://www.gob.mx/que-es-gobmx"><u data-v-41055fb8="">Leer
+                                    más</u></a></p>
+                        <ul data-v-41055fb8="" class="list-unstyled">
+                            <li data-v-41055fb8="">
+                                <a data-v-41055fb8="" href="https://datos.gob.mx">Portal de datos abiertos</a>
+                            </li>
+                            <li data-v-41055fb8="">
+                                <a data-v-41055fb8="" href="https://www.gob.mx/accesibilidad">Declaración de
+                                    accesibilidad</a>
+                            </li>
+                            <li data-v-41055fb8="">
+                                <a data-v-41055fb8="" href="https://www.gob.mx/privacidadintegral">Aviso de privacidad
+                                    integral</a>
+                            </li>
+                            <li data-v-41055fb8="">
+                                <a data-v-41055fb8="" href="https://www.gob.mx/privacidadsimplificado">Aviso de
+                                    privacidad
+                                    simplificado</a>
+                            </li>
+                            <li data-v-41055fb8="">
+                                <a data-v-41055fb8="" href="https://www.gob.mx/terminos">Términos y condiciones</a>
+                            </li>
+                            <li data-v-41055fb8="">
+                                <a data-v-41055fb8=""
+                                    href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de
+                                    seguridad</a>
+                            </li>
+                            <li data-v-41055fb8="">
+                                <a data-v-41055fb8="" href="https://www.gob.mx/sitemap">Mapa del sitio</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div data-v-41055fb8="" class="col-sm-6 col-lg-3">
+                        <h6 data-v-41055fb8="" align="left" id="division" data-fontsize="16" data-lineheight="19.2px"
+                            class="fusion-responsive-typography-calculated "
+                            style="--fontSize:16; line-height: 1.2; --minFontSize:16;">
+                        </h6>
+                        <h6 data-v-41055fb8="" data-fontsize="16" data-lineheight="19.2px"
+                            class="fusion-responsive-typography-calculated"
+                            style="--fontSize:16; line-height: 1.2; --minFontSize:16;">
+                            <a data-v-41055fb8=""
+                                href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54"><u
+                                    data-v-41055fb8="">Denuncia contra servidores públicos</u></a>
+                        </h6>
+                        <br data-v-41055fb8="">
+                        <h6 data-v-41055fb8="" id="redes" data-fontsize="16" data-lineheight="19.2px"
+                            class="fusion-responsive-typography-calculated mb-5"
+                            style="--fontSize:16; line-height: 1.2; --minFontSize:16;">
+                            Síguenos en:</h6>
+                        <ul data-v-41055fb8="" id="social" class="list-inline">
+                            <li data-v-41055fb8="" class="list-inline-item">
+                                <a data-v-41055fb8="" href="https://www.facebook.com/gobmexico/" target="_blank"
+                                    red="Facebook" title="Enlace a facebook abre en una nueva ventana"
+                                    class="sendEstFooterRs share-info">
+                                    <img data-v-41055fb8="" alt="Facebook"
+                                        src="https://framework-gb.cdn.gob.mx/landing/img/facebook.png">
+                                </a>
+                            </li>
+                            <li data-v-41055fb8="" class="list-inline-item">
+                                <a data-v-41055fb8="" href="https://twitter.com/GobiernoMX" target="_blank"
+                                    red="Twitter" title="Enlace a twitter abre en una nueva ventana"
+                                    class="sendEstFooterRs share-info">
+                                    <img data-v-41055fb8="" alt="Twitter"
+                                        src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-v-41055fb8="" class="container-fluid footer-pleca"
+                style=" background-image: url(https://framework-gb.cdn.gob.mx/landing/img/pleca.svg)">
+                <div data-v-41055fb8="" class="row">
+                    <div data-v-41055fb8="" class="column"><br data-v-41055fb8=""><br data-v-41055fb8=""><br
+                            data-v-41055fb8="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://prepaenlinea.sep.gob.mx/validacion/public/js/bootstrap.bundle.min.js" crossorigin="anonymous"> </script>
+
+
+</body>
+
+</html>
